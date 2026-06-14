@@ -147,7 +147,7 @@ def get_keys(update_for: str):
 
 
 if __name__ == '__main__':
-	VERSION = "4.2"
+	VERSION = "4.3"
 	result, all_keys = get_keys(VERSION)
 	keys_path = Path(__file__).parent.parent.parent / 'PyCriUsm' / 'keys.json'
 	keys = {}
